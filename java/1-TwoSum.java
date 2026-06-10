@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         // Create a hash map to store the value and its corresponding index
         Map<Integer, Integer> numMap = new HashMap<>();

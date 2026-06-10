@@ -1,6 +1,6 @@
 // Reversing only half of the number to check for palindrome
 
-public class Solution {
+class IsPalindrome {
     public boolean isPalindrome(int x) {
         // Edge Case 1: Negative numbers are not palindromes (e.g., -121 becomes 121-)
         // Edge Case 2: If the last digit is 0, the first digit must also be 0 for it to be a palindrome.
